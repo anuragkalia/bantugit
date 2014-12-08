@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bantugit", "bantugit\bantugit.vcxproj", "{25AD36F4-44C8-4D0B-9F6B-D3D408BBC9F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCE46EBA-C148-4998-B49A-0C658A836495}"
+	ProjectSection(SolutionItems) = preProject
+		bantugit\boot.s = bantugit\boot.s
+		bantugit\clock.cpp = bantugit\clock.cpp
+		bantugit\clock.h = bantugit\clock.h
+		bantugit\debug.cpp = bantugit\debug.cpp
+		bantugit\debug.h = bantugit\debug.h
+		bantugit\filesystem.cpp = bantugit\filesystem.cpp
+		bantugit\filesystem.h = bantugit\filesystem.h
+		bantugit\gdt.cpp = bantugit\gdt.cpp
+		bantugit\gdt.h = bantugit\gdt.h
+		bantugit\grub.cfg = bantugit\grub.cfg
+		bantugit\ide.cpp = bantugit\ide.cpp
+		bantugit\ide.h = bantugit\ide.h
+		bantugit\idt.cpp = bantugit\idt.cpp
+		bantugit\idt.h = bantugit\idt.h
+		bantugit\init.cpp = bantugit\init.cpp
+		bantugit\init.h = bantugit\init.h
+		bantugit\io_asm.h = bantugit\io_asm.h
+		bantugit\irq.cpp = bantugit\irq.cpp
+		bantugit\irq.h = bantugit\irq.h
+		bantugit\isr.cpp = bantugit\isr.cpp
+		bantugit\isr.h = bantugit\isr.h
+		bantugit\kbd.cpp = bantugit\kbd.cpp
+		bantugit\kbd.h = bantugit\kbd.h
+		bantugit\kernel.cpp = bantugit\kernel.cpp
+		bantugit\keyboard.cpp = bantugit\keyboard.cpp
+		bantugit\keyboard.h = bantugit\keyboard.h
+		bantugit\linker.ld = bantugit\linker.ld
+		bantugit\lock.cpp = bantugit\lock.cpp
+		bantugit\lock.h = bantugit\lock.h
+		bantugit\lock_asm.h = bantugit\lock_asm.h
+		bantugit\makefile = bantugit\makefile
+		bantugit\mmngr_phys.cpp = bantugit\mmngr_phys.cpp
+		bantugit\mmngr_phys.h = bantugit\mmngr_phys.h
+		bantugit\mmngr_virtual.cpp = bantugit\mmngr_virtual.cpp
+		bantugit\mmngr_virtual.h = bantugit\mmngr_virtual.h
+		bantugit\multiboot.h = bantugit\multiboot.h
+		bantugit\new_shell.cpp = bantugit\new_shell.cpp
+		bantugit\new_shell.h = bantugit\new_shell.h
+		bantugit\paging_asm.h = bantugit\paging_asm.h
+		bantugit\pcb.cpp = bantugit\pcb.cpp
+		bantugit\pcb.h = bantugit\pcb.h
+		bantugit\pqueue.h = bantugit\pqueue.h
+		bantugit\process.cpp = bantugit\process.cpp
+		bantugit\process.h = bantugit\process.h
+		bantugit\process_asm.h = bantugit\process_asm.h
+		bantugit\README.txt = bantugit\README.txt
+		bantugit\shell.cpp = bantugit\shell.cpp
+		bantugit\shell.h = bantugit\shell.h
+		bantugit\stdfunc.cpp = bantugit\stdfunc.cpp
+		bantugit\stdfunc.h = bantugit\stdfunc.h
+		bantugit\terminal.cpp = bantugit\terminal.cpp
+		bantugit\terminal.h = bantugit\terminal.h
+		bantugit\timer.cpp = bantugit\timer.cpp
+		bantugit\timer.h = bantugit\timer.h
+		bantugit\types_asm.h = bantugit\types_asm.h
+		bantugit\vmmngr_pde.cpp = bantugit\vmmngr_pde.cpp
+		bantugit\vmmngr_pde.h = bantugit\vmmngr_pde.h
+		bantugit\vmmngr_pte.cpp = bantugit\vmmngr_pte.cpp
+		bantugit\vmmngr_pte.h = bantugit\vmmngr_pte.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25AD36F4-44C8-4D0B-9F6B-D3D408BBC9F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25AD36F4-44C8-4D0B-9F6B-D3D408BBC9F3}.Debug|Win32.Build.0 = Debug|Win32
+		{25AD36F4-44C8-4D0B-9F6B-D3D408BBC9F3}.Release|Win32.ActiveCfg = Release|Win32
+		{25AD36F4-44C8-4D0B-9F6B-D3D408BBC9F3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
